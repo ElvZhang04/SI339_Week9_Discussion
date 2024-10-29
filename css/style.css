@@ -99,4 +99,14 @@ form ol li:last-child {
 	padding-bottom: 25px;
 }
 
+button {
+	cursor: wait;
+}
+
+@media screen and (prefers-reduced-motion) {
+	button {
+		cursor: crosshair;
+	}
+}
+
 /*** END HERE ***/
